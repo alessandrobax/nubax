@@ -1,12 +1,17 @@
-var express = require('express')
-    ,app = express()
-    ,bodyParser = require('body-parser')
-    ,routes = require('../app/routes');
+var express = require('express');
+var app = express();
+var consign = require('consign');
+var bodyParser = require('body-parser');
+//var cors = require('cors');
 
 app.use(express.static('./public'));
-app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
+//app.use(cors);
 
-routes(app);
+consign({cwd:'app'})
+    .include('models')
+    .then('api')
+    .then('routes')
+    .into(app);
 
 module.exports = app;
