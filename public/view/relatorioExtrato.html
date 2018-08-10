@@ -1,0 +1,18 @@
+<div class="container">
+        <table class="table table-striped">
+            <tr>
+                <th>Data</th>
+                <th>Operação</th>
+                <th>Valor</th>
+                <th>Saldo Total</th>
+            </tr>
+            <tr ng-repeat="extrato in extratos">
+                <td>{{extrato.data}}</td>
+                <td>{{extrato.tipo}}</td>
+                <td>R$ {{extrato.valor}},00</td>
+                <td>R$ {{extrato.saldo}},00</td>
+            </tr>
+        </table>
+        <a href="../index.html" class="btn btn-info btn-block">Voltar</a>
+    </div>
+    <div ng-init="carregarExtrato()"></div>

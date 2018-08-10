@@ -9,6 +9,10 @@ app.config(function ($routeProvider, $locationProvider) {
             controller: "listaTransacoesCtrl",
             templateUrl: "view/relatorioTransacoes.html"
         })
+        .when("/relatorioExtrato", {
+            controller: "extratoCtrl",
+            templateUrl: "view/relatorioExtrato.html"
+        })
         .when("/relatorioClientes", {
             controller: 'listaClientesCtrl',
             templateUrl: 'view/relatorioClientes.html'
