@@ -1,4 +1,5 @@
-angular.module("listaClientes").factory("clientesAPI", function ($http) {
+angular.module("app").factory("clientesAPI", function ($http) {
+    
     var _getClientes = function () {
         return  $http.get("http://localhost:3000/clientes");
     };

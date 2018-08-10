@@ -19,3 +19,7 @@
 .selecionado {
     background-color: lightblue;
 }
+
+.container {
+    margin-top: 20px;
+}
