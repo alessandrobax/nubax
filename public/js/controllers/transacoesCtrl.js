@@ -1,4 +1,4 @@
-angular.module("listaClientes").controller("listaTransacoesCtrl", function ($scope, $http, transacoesAPI) {
+app.controller("listaTransacoesCtrl", function ($scope, $http, transacoesAPI) {
     $scope.app = "Lista Clientes";
 
     $scope.transacoes = [];

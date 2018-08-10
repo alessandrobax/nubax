@@ -1,3 +1,7 @@
+.static {
+    overflow: hidden;
+}
+
 .jumbotron {
     width: auto;
     height: 800px;
