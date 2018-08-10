@@ -22,4 +22,10 @@
 
 .container {
     margin-top: 20px;
+
+}
+
+.tabela {
+    height: 300px;
+    overflow: auto;
 }
