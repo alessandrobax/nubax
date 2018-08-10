@@ -2,7 +2,7 @@
 (Projeto em desenvolvimento)
 Projeto de um app de banco, realizado como exercício inicial de GBS na IBM.
 
-![picture](img/NuBax-print.png)
+![picture](img/print.png)
 
 ## Getting Started
 
