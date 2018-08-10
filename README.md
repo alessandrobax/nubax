@@ -2,6 +2,8 @@
 (Projeto em desenvolvimento)
 Projeto de um app de banco, realizado como exercício inicial de GBS na IBM.
 
+![picture](img/NuBax-print.png)
+
 ## Getting Started
 
 O projeto foi construido com a arquitetura MEAN Stack (Mongo, Express, AngularJS e Node.js)
