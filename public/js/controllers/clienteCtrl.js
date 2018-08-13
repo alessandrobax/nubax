@@ -13,6 +13,7 @@ app.controller("listaClientesCtrl", function ($scope, $http, clientesAPI) {
 
     $scope.adicionarCliente = function (cliente) {
         clientesAPI.saveClientes(cliente).then(function (data) {
+            console.log(cliete);
             delete $scope.cliente;
             $scope.clienteForm.$setPristine();
         });

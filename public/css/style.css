@@ -33,3 +33,7 @@
     height: 300px;
     overflow: auto;
 }
+
+.content {
+    overflow: auto; 
+}
