@@ -8,7 +8,6 @@
     "start": "node server.js"
   },
   "author": "Alessandro Bax",
-  "license": "ISC",
   "dependencies": {
     "body-parser": "^1.18.3",
     "consign": "^0.1.6",
